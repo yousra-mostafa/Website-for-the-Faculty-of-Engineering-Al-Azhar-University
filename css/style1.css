@@ -1,0 +1,252 @@
+/* start global */
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #4c4848;
+    direction: rtl;
+    padding-top: 64px;
+    text-align: right;
+}
+
+.container {
+    color: #FFF;
+    max-width: 1170px;
+}
+
+/* end global */
+
+/* start of navbar */
+
+.navbar {
+    background-color: #f78D1E!important;
+    font-size: 1.2em;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3 ;
+    padding: 0rem 1rem;
+    
+}
+.navbar-nav{
+    /* margin-right:395px; */
+    
+}
+.navbar-nav li{
+
+}
+.navbar .navbar-brand {
+    margin-left: 10%
+}
+
+.nav-link {
+    padding: -0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    background: #3D4753
+}
+
+.navbar .collapse ul li {
+    margin-left: 1em
+}
+
+.dropdown-menu {
+    background: #3D4753;
+    text-align: right;
+    left: -18px
+}
+
+.dropdown-item {
+    color:#fff;
+}
+
+.dropdown-item:hover {
+    background: #FFF;
+color: #3D4753
+}
+
+/* end of navbar */
+
+/* start of about page */
+
+.ameed {
+    display: flex;
+    padding: 2% ;
+    margin-top: 2% ;
+    background: #d9dee2;
+    color: #3F3F3F;
+}
+
+.ameed div {
+    width: 55%
+}
+
+.ameed div p {
+    font-size: 0.85em
+}
+
+.ameed div h6 {
+    text-align: left
+}
+
+.ameed img {
+    border-radius: 10%;
+    margin-right: 3%;
+    width: 45%
+    
+}
+
+.content .one , .content .two , .content .three {
+    border: solid 0.4em #f78D1E;
+    margin: 3%;
+    padding: 1%;
+    display: flex
+}
+
+.content .one img , .content .two img , .content .three img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.content .one div , .content .two div , .content .three div {
+    padding-right: 3%
+}
+
+/* end of about page */
+
+.container p{
+    text-align: right;
+    margin: 4% 0
+}
+
+.container form {
+    text-align: center
+}
+
+.container .form-group fieldset {
+    border: solid 0.4em #f78d1e;
+    padding: 3%;
+    width: 60%;
+    margin-bottom: 4%
+}
+
+.container .form-group fieldset label {
+    padding-bottom: 1%;
+}
+
+.container .form-group fieldset input , .container .form-group fieldset textarea {
+    width: 75%;
+    margin: 0 auto
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: red;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::placeholder {
+  color: red;
+};
+
+.container .form-group fieldset button {
+    color: #FFF ;
+    background: #f78d1e;
+    padding: 0.5em 1.2em
+}
+
+.container .form-group fieldset button:hover {
+    background: #4c4848;
+    color: #f78d1e;
+    border: solid 2px #f78d1e;
+}
+
+#footer {
+    background-color: #f78D1E!important;
+    color: #e4e3e2;
+    text-align: center;
+    display: flex;
+    padding: 1% 32%;
+    font-size: 1.04em
+}
+
+#footer .brands {
+    margin-right: 10%;
+    font-size: 1.5em;
+}
+
+#footer p {
+    padding-top: 1%
+}
+
+/* Nozom page */
+
+.carousel {
+    z-index: 2
+}
+
+.carousel .carousel-inner {
+    z-index: 1;
+    height: 77%;
+    margin-bottom: 3%
+}
+
+.carousel-indicators {
+    bottom: 18px;
+}
+
+.discription {
+    background: #d9dee2;
+    color: #3F3F3F;
+}
+
+.doctor {
+    background: #DDD;
+    color: #00274c;
+}
+
+.discription .flex , .doctor .word {
+    display: flex;
+    margin: 2%;
+    padding: 3% 0;
+}
+
+.doctor .word img {
+    border-radius: 10%;
+    width: 50%;
+    margin-left: 3%
+}
+
+.doctor .word div h6 {
+    text-align: left
+}
+
+.discription .flex img {
+    border-radius: 10%;
+    height: 100%;
+    width: 50%;
+    margin-right: 3%
+}
+
+.years {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+.years div {
+    border: solid 0.4em #0c7560;
+    width: 50%;
+    margin:2%;
+    padding: 3%
+}
+
+/* end Nozom page */
